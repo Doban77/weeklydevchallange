@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./weeklydevchallenge1.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+<div class="page-wrapper">
+    <header>
+            <img class="logo" src="./Masteralb TOP LOGO.png" alt="Logo główne Masterlab">
+    </header>
+    <section class="row">
+        <section class="column">
+            <form class="register" action="">
+                <h2>Register Form</h2>
+                <div class="container">
+
+                    <div class="input-wrapper">
+                        <label for="username">Username</label>
+                        <div class="icon-wrapper">
+                                <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" placeholder="Username" name="username" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="psw">Password</label>
+                        <div class="icon-wrapper">
+                                <i class="fas fa-lock"></i>
+                        </div>
+                        <input type="password" placeholder="Password" name="psw" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="psw-repeat">Confirm Password</label>
+                        <div class="icon-wrapper">
+                                <i class="fas fa-lock"></i>
+                        </div>
+                        <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email">Email</label>
+                        <div class="icon-wrapper">
+                                <i class="fas fa-envelope"></i>
+                        </div>
+                        <input type="text" placeholder="Email" name="email" required>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <div class="icon-wrapper">
+                                <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                            <label for="location">Your location</label>
+                                <select id="user-location">
+                                    <option value="Your Location">Your location</option>
+                                    <option value="Europe">Europe</option>
+                                    <option value="NA">North America</option>
+                                    <option value="SA">South America</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="Africa">Africa</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                    </div>
+
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox"> I have read and accept terms of use.
+
+                    </div>
+                    <button type="submit" class="register-button">Sign Up</button>
+                </div>
+            </form>
+            <form class="email" action="">
+                <h2>Send Email</h2>
+                    <div class="container">
+
+                        <div class="input-wrapper">
+                            <label for="username">Username</label>
+                            <div class="icon-wrapper">
+                                    <i class="fas fa-user"></i>
+                            </div>
+                            <input type="text" placeholder="Your name" name="username" required>
+                        </div>
+                        <div class="input-wrapper">
+                                <label for="email">Email</label>
+                                <div class="icon-wrapper">
+                                        <i class="fas fa-envelope"></i>
+                                </div>
+                                <input type="text" placeholder="Email" name="email" required>
+                        </div>
+                        <div class="input-wrapper">
+                                <textarea name="textarea" cols="30" rows="12" placeholder="Type you message here..."></textarea>
+                        </div>
+                        <div class="checkbox-wrapper">
+                                <input type="checkbox"> Send a copy to my email.
+                        </div>
+                        <button type="submit" class="register-button">Send Email</button>
+                    </div>
+            </form>
+        </section>
+        <section class="column">
+            <form class="sign-in" action="">
+                <h2>Sign in Form</h2>
+                <div class="container">
+
+                    <div class="input-wrapper">
+                        <label for="username">Username</label>
+                        <div class="icon-wrapper">
+                                <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" placeholder="Username" name="username" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="psw">Password</label>
+                        <div class="icon-wrapper">
+                                <i class="fas fa-lock"></i>
+                        </div>
+                        <input type="password" placeholder="Password" name="psw" required>
+                    </div>
+                        <div class="checkbox-submit-wrapper">
+                        <div class="checkbox-wrapper">
+                                <input type="checkbox"> Remember me.
+
+                        </div>
+                        <button type="submit" class="register-button">Sign In</button>
+                    </div>
+                </div>
+            </form>
+            <form class="recover" action="">
+                <h2>Recover Form</h2>
+                    <div class="container">
+                        <div class="input-wrapper">
+                                <label for="email">Email</label>
+                                <div class="icon-wrapper">
+                                        <i class="fas fa-envelope"></i>
+                                </div>
+                                <input type="text" placeholder="Enter your Email" name="email" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="psw">Phone number</label>
+                            <div class="icon-wrapper">
+                                    <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <input type="number" placeholder="Enter your Phone number" name="phone-number" required>
+                        </div>
+                            <div class="checkbox-submit-wrapper">
+                            <button type="submit" class="register-button">Send</button>
+                            <button type="submit" class="register-button">Done</button>
+                        </div>
+                    </div>
+            </form>
+
+            <form class="subscribe" action="">
+                <h2>Subscribe Form</h2>
+                    <div class="container">
+                        <div class="input-wrapper">
+                                <label for="email">Email</label>
+                                <div class="icon-wrapper">
+                                        <i class="fas fa-envelope"></i>
+                                </div>
+                                <input type="text" placeholder="Enter your Email" name="email" required>
+                        </div>
+                        <div class="checkbox-submit-wrapper">
+                            <button type="submit" class="register-button">Subscribe</button>
+                            <button type="submit" class="register-button button-red">No thanks</button>
+                        </div>
+                    </div>
+            </form>
+            <footer class="logo">
+                <img src="./Masteralb LOGO dół.png" alt="dolne logo Masterlab z adresem www">
+            </footer>
+        </section>
+    </section>
+</div>
+<script src="https://kit.fontawesome.com/7ed3403ae9.js"></script>
+</body>
+</html>

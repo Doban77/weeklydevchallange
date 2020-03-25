@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+label {
+    display: none;
+}
+
+.page-wrapper {
+    background-image:url("../WeeklyDevChallenge/177474.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 50px 0px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    border: 15px solid rgba(0,0,0, 0.2);
+    border-radius: 1%;
+    padding: 20px;
+    margin: 0 60px 50px;
+    background-color: #f6f7f7;
+    background-clip: padding-box;
+}
+
+.input-wrapper {
+    display: flex;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.icon-wrapper {
+    font-size: 1.5rem;
+    text-align: center;
+    border-right: 1px solid;
+    padding: 3px 9px 3px;
+    margin: 4px 0 4px;
+    min-width: 25px;
+}
+
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+    background: inherit;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    border: none;
+    padding-left: 10px;
+    color:grey;
+}
+
+.checkbox-wrapper {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.register-button {
+    height: 30px;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(31, 172, 31);
+    border-color: rgb(12, 65, 12);
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: rgb(37, 213, 37);
+}
+
+.button-red {
+    background-color: rgb(175, 10, 10)
+}
+.button-red:hover {
+    background-color: rgb(220, 45, 45)
+}
+
+.checkbox-submit-wrapper {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.checkbox-submit-wrapper .register-button{
+    width: 45%;
+}
